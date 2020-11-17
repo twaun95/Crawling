@@ -1,0 +1,15 @@
+#관리자/일반유저 권한으로 실행
+C:\Windows\system32>pip install ipython[notebook]
+C:\Windows\system32>python -m pip install --upgrade pip
+
+pip install ipython notebook
+pip install beautifulsoup4
+>>> from bs4 import BeautifulSoup
+
+#일반유저로 실행
+C:\Users\유저명>ipython notebook
+
+기본 명령어 
+Ctrl + Enter => 소스코드 실행
+Shift + Enter => 소스코드 실행 후 한줄 추가
+소스코드 선택 후 Ctrl + “/” => 주석처리
